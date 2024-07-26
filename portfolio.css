@@ -1,22 +1,24 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'); */
 
 .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  /* font-weight: <weight>; */
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
+
 /* Shared style */
-.text-primary{
+.text-primary {
     color: #FD6E0A;
 }
-.dark-2{
+
+.dark-2 {
     color: #474747;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: #FD6E0A;
     font-weight: bold;
     color: white;
@@ -31,59 +33,68 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0px 100px;
+    margin: 0px 230px;
 }
 
-.nav-title{
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 }
 
-nav ul{
+nav ul {
     display: flex;
     align-items: center;
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     margin-right: 50px;
 }
-nav ul a{
+
+nav ul a {
     text-decoration: none;
     font-size: 20px;
 }
+
 /* Header file image background */
-.header{
+.header {
     background-image: url('./images/developer.png'), url('./images/header_bg.png');
     background-repeat: no-repeat;
     background-position: top left, bottom right;
 }
-.banner{
+
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0 38px 0 230px;
- height: 680px;
+    /* background-color: rgb(255, 248, 243);; */
+    /* height: 680px; */
+    /* width: 1600px; */
 }
 
-.banner-content{
+.banner-content {
     max-width: 500px;
 }
+
 /* Banner styles */
-.banner-greetings{
+.banner-greetings {
     font-size: 45px;
     font-weight: 600;
 }
 
-.banner-title{
+.banner-title {
     font-size: 50px;
     font-weight: bold;
 }
 
-.banner-description{
+.banner-description {
     font-size: 15px;
     font-weight: 400;
 }
 
-.banner-profile-pic{
+.banner-profile-pic {
     width: 500px;
+    /* height: 780px; */
+    /* margin-bottom: 100px; */
+    /* margin-top: 100px; */
 }
