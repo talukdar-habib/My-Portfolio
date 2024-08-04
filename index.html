@@ -1,16 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="portfolio.css">
 </head>
+
 <body class="open-sans-normal">
-    <header class="header">
+    <header class="header second-background">
+        <!-- Nav section started -->
         <nav>
             <h3 class="nav-title">Md Habib <span class="text-primary">Ullah</span> Talukdar</h3>
             <ul>
@@ -20,23 +25,156 @@
             </ul>
         </nav>
         <div class="banner">
-                <div class="banner-content">
-                    <h4 class="banner-greetings dark-2">Hi, I  am</h4>
-                    <h1 class="banner-title">Md Habib Ullah Talukdar</h1>
-                    <p class="banner-description">As a web developer, it is crucial to adhere to best coding practices and maintain a clean, well-documented codebase to ensure scalability and ease of maintenance.</p>
-                    <button class="btn-primary">Download CV</button>
-                    <button class="btn-primary">Contact</button>
-                </div>
-                <img class="banner-profile-pic" src="images/my pic.png" alt="">
+            <div class="banner-content">
+                <h4 class="banner-greetings dark-2">Hi, I am</h4>
+                <h1 class="banner-title">Md Habib Ullah Talukdar</h1>
+                <p class="banner-description">As a web developer, it is crucial to adhere to best coding practices and
+                    maintain a clean, well-documented codebase to ensure scalability and ease of maintenance.</p>
+                <button class="btn-primary">Download CV</button>
+                <button class="btn-primary">Contact</button>
+            </div>
+            <img class="banner-profile-pic" src="images/my pic.png" alt="">
         </div>
     </header>
     <main>
+        <!-- Banner section started -->
+        <section class="about second-background">
+            <div class="about-content">
+                <h3 class="section-title">About Me</h3>
+                <p class="section-description">I am a passionate web developer with a knack for crafting seamless and
+                    engaging online experiences. With expertise in HTML, CSS, JavaScript, and various frameworks, I
+                    build responsive and user-friendly websites. My problem-solving skills and attention to detail
+                    ensure high-quality results in every project. Constantly learning and evolving, I stay ahead of the
+                    latest industry trends to deliver innovative solutions.
+                </p>
+                <div class="about-items">
+                    <!-- .about-item*4>p.item-title+p.item-description -->
+                    <div class="about-item">
+                        <p class="item-title">Name</p>
+                        <p class="item-description">Md Habib Ullah Talukdar</p>
+                    </div>
+                    <div class="about-item">
+                        <p class="item-title">Email</p>
+                        <p class="item-description">habib291030@gmail.com</p>
+                    </div>
+                    <div class="about-item">
+                        <p class="item-title">Date of birth</p>
+                        <p class="item-description">29th October, 1999</p>
+                    </div>
+                    <div class="about-item">
+                        <p class="item-title">From</p>
+                        <p class="item-description">Chattogram, Bangladesh</p>
+                    </div>
 
+                </div>
+            </div>
 
+        </section>
+
+        <!-- What I do section started -->
+        <section class="what-i-do">
+            <div>
+                <div class="top-part">
+                    <h3 class="section-title">What I do</h3>
+                    <p class="section-description">I have more than 10 years experience building software for clients
+                        all over the world. Below is a quick overview of my main technical skill sets and technologies i
+                        use. Want to find out more about my experience? Check out my online resume and project
+                        portfolio.</p>
+                </div>
+                <div class="skills-container">
+                    <div class="skill">
+                        <img src="images/icons/js.png" alt="">
+                        <h4>Vanilla JavaScript</h4>
+                        <p>Vanilla JavaScript refers to using plain JavaScript without any libraries or frameworks. It's
+                            the pure, standard version of JavaScript, allowing developers to manipulate the DOM, handle
+                            events, and interact with APIs directly.</p>
+                    </div>
+                    <div class="skill">
+                        <img src="images/icons/react.png" alt="">
+                        <h4>React</h4>
+                        <p>React is a popular JavaScript library developed by Facebook for building user interfaces,
+                            especially single-page applications. It allows developers to create reusable UI components,
+                            making code more modular and easier to manage.</p>
+                    </div>
+                    <div class="skill">
+                        <img src="images/icons/nodejs.png" alt="">
+                        <h4>Node.js</h4>
+                        <p>Node.js is a runtime environment that allows you to run JavaScript on the server side. It
+                            uses the V8 engine from Google Chrome to execute code, making it fast and efficient.</p>
+                    </div>
+                    <div class="skill">
+                        <img src="images/icons/mongo.png" alt="">
+                        <h4>MongoDB</h4>
+                        <p>MongoDB is a NoSQL database that stores data in flexible, JSON-like documents instead of
+                            traditional rows and columns. It is designed to handle large volumes of unstructured or
+                            semi-structured data, making it ideal for modern applications with evolving data needs. </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- .resume-column*2>h3.resume-column-title+.experience*3>h4.experience-title+h5.experience-sub-title+.experience-description -->
+    
+        <section class="resume">
+            <h3 class="section-title">A summary of My Resume</h3>
+            <div class="resume-container">
+                <div class="resume-column">
+                    <h3 class="resume-column-title dark-2">My Education</h3>
+                    <div class="experience">
+                        <h4 class="experience-title dark-2">Master in Computer Engineering</h4>
+                        <h5 class="experience-sub-title ">Harvard University / 2015 - 2017</h5>
+                        <div class="experience-description">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title dark-2">Master in Computer Engineering</h4>
+                        <h5 class="experience-sub-title">Harvard University / 2015 - 2017</h5>
+                        <div class="experience-description">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title dark-2">Master in Computer Engineering</h4>
+                        <h5 class="experience-sub-title">Harvard University / 2015 - 2017</h5>
+                        <div class="experience-description">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</div>
+                    </div>
+                </div>
+                <div class="resume-column">
+                    <h3 class="resume-column-title dark-2">My Experience</h3>
+                    <div class="experience">
+                        <h4 class="experience-title dark-2">Sr. Font End Developer</h4>
+                        <h5 class="experience-sub-title">Apple Inc / 2020 - Current</h5>
+                        <div class="experience-description">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title dark-2">Jr. Font End Developer</h4>
+                        <h5 class="experience-sub-title">Dribbble Inc / 2018 - 2022</h5>
+                        <div class="experience-description">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</div>
+                    </div>
+                    <hr>
+                    <div class="experience">
+                        <h4 class="experience-title dark-2">HTML Developer</h4>
+                        <h5 class="experience-sub-title">Adobe Inc / 2017 - 2018</h5>
+                        <div class="experience-description">List skill/technologies here. You can change the icon above 
+                            to any of the 1500+ FontAwesome 5 free icons available. Aenean commodo ligula eget dolor.</div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="resume-download-cv">
+                <button class="btn-primary resume-download-cv">Download CV</button>
+            </div>
+        </section>
     </main>
     <footer>
 
-         
     </footer>
 </body>
+
 </html>
