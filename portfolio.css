@@ -40,6 +40,20 @@
     border: none;
     cursor: pointer;
 }
+.contact-button{
+    padding: 17.5px 35px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    color:  #FD6E0A;
+    cursor: pointer;
+}
+.button-container{
+    display: flex;
+    gap: 18px;
+}
 
 .section-title {
     font-size: 35px;
@@ -112,13 +126,14 @@ nav ul a {
 }
 
 .banner-title {
-    font-size: 35px;
+    font-size: 50px;
     font-weight: bold;
 }
 
 .banner-description {
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 400;
+    color: #757575;
     margin: 30px 0 50px 0;
 }
 
@@ -163,8 +178,23 @@ main section{
     display: flex;
     flex-direction: column;
 } */
+
+.about-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.item-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+
 .item-description{
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: bold;
+    color: #474747;
     /* margin-top: px; */
     /* margin: 30px; */
 }
@@ -184,11 +214,16 @@ main section{
     /* width: 80%; */
 }
 
+.skill-title{
+    color: #181818;
+}
+
 .skill{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px;
     width: 200px;
+    color: #757575 ;
     
 }
 
@@ -261,7 +296,7 @@ footer{
 }
 
 footer input[type="text"], footer input[type="email"], footer textarea{
-    height: 64px;
+    /* height: 64px; */
     border-radius: 5px;
     background-color: white;
     display: block;
