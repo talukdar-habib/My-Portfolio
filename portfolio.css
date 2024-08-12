@@ -342,6 +342,30 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     .about-items{
         flex-direction: column;
     }
+    .button-container{
+    flex-direction: column;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .banner-profile-pic{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav-title {
+        font-weight: 800;
+        font-size: 35px;
+    }
     
 }
 
